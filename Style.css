@@ -1,0 +1,143 @@
+body 
+{
+    color:#171412;
+    background-color: #f9f6e2;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Introduction Class CSS */
+.IntChaptersClass 
+{
+    justify-content: space-between;
+    display: inline-block;
+    list-style-type: none;
+    padding: 16px;
+    text-align: left;
+}
+.IntHomeClass
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: -25%;
+    justify-content: space-between;
+    display: inline-block;
+    list-style-type: none;
+    padding: 16px;
+    text-align: center;
+
+}
+.IntDeviantArtClass
+{
+    position: relative;
+    width: 10%;
+    right: 0%;
+    justify-content: space-between;
+    display: inline-block;
+    list-style-type: none;
+    padding: 16px;
+    text-align: right;
+}
+
+    #Img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+        height: 500px;
+    }
+  
+    #Tx {
+    
+        position: absolute;
+        font-size: 28px;
+        left: 250px;
+        top: 200px;
+        color:#968b4c;
+        font-family: cursive;
+    } 
+
+/* Chapter Class CSS */
+.ChIntroductionClass 
+{
+    justify-content: space-between;
+    display: inline-block;
+    list-style-type: none;
+    padding: 16px;
+    text-align: left;
+}
+.ChHomeClass
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: -25%;
+    justify-content: space-between;
+    display: inline-block;
+    list-style-type: none;
+    padding: 16px;
+    text-align: center;
+
+}
+.ChDeviantArtClass
+{
+    position: absolute;
+    width: 20%;
+    right:  5%;
+    justify-content: space-between;
+    display: inline-block;
+    list-style-type: none;
+    padding: 16px;
+    text-align: right;
+}
+.ChChapterOne
+{
+    width: 500px;
+    height: 600px;
+    list-style-type: none;
+}
+
+/* Home Class CSS */
+.HoIntroductionClass
+{
+    justify-content: space-between;
+    display: inline-block;
+    list-style-type: none;
+    padding: 16px;
+    text-align: left;
+}
+.HoDeviantArtClass
+{
+    position: relative;
+    width: 10%;
+    right: -75%;
+    justify-content: space-between;
+    display: inline-block;
+    list-style-type: none;
+    padding: 16px;
+    text-align: right;
+}
+
+/* Links CSS */
+a:link
+{
+    background-color: #948b82;
+    background-size: 200px 100px;
+    color: #171412;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #171412;
+}
+img
+{
+    height: 100%;
+    width: 50%;
+}
+.IntroductionClass
+{
+    text-align: center;
+}
