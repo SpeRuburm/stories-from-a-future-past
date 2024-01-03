@@ -1,7 +1,7 @@
 body 
 {
-    color:#000000;
-    background-color: #f9f6e2;
+    color:#ffffff;
+    background-color: #11110e;
     font-size: 15px;
     font-family: cursive;
 }
@@ -55,7 +55,7 @@ body
         font-size: 28px;
         left: 250px;
         top: 200px;
-        color:#968b4c;
+        color:#bec98f;
         font-family: cursive;
     } 
 
@@ -92,12 +92,7 @@ body
     padding: 16px;
     text-align: right;
 }
-.ChChapterOne
-{
-    width: 500px;
-    height: 600px;
-    list-style-type: none;
-}
+
 
 /* Home Class CSS */
 .HoIntroductionClass
@@ -125,19 +120,66 @@ a:link
 {
 
     background-size: 200px 100px;
-    color: #171412;
+    color: #ffffff;
     text-decoration: none;
 }
 a:visited
 {
-    color: #171412;
+    color: #ffffff;
 }
-img
+
+
+/*Images of gallery */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ChChapterOne
 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.Gallery-Container-One
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 2vw;
+}
+.Gallery-Items
+{
+    width: 260px;
+    height: 340px;
+    list-style-type: none;
+    border: 5px solid #7e7e74;
+    flex-grow: 1;
+    filter: grayscale(100%);
+    transition: transform 0.2s linear;
+}
+.Gallery-Items img
+{
+    width: 100%;
     height: 100%;
-    width: 50%;
+    list-style-type: none;
+    object-fit: cover;
+    
 }
-.IntroductionClass
+.Gallery-Items:hover
 {
-    text-align: center;
+    transform: scale(1.4);
+    filter: none;
+}
+footer
+{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7e7e74;
+    font-style: italic;
 }
