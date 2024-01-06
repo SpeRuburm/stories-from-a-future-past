@@ -13,6 +13,7 @@ body
     display: inline-block;
     list-style-type: none;
     padding: 16px;
+    max-width: 100%;
     text-align: left;
 }
 .IntChapterIIClass
@@ -21,6 +22,7 @@ body
     display: inline-block;
     list-style-type: none;
     padding: 16px;
+    max-width: 100%;
     text-align: left;
 }
 .IntHomeClass
@@ -33,6 +35,7 @@ body
     display: inline-block;
     list-style-type: none;
     padding: 16px;
+    max-width: 100%;
     text-align: center;
 
 }
@@ -46,15 +49,34 @@ body
     list-style-type: none;
     padding: 16px;
     text-align: right;
+    max-width: 100%;
 }
-
+.holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    
+}
+.holder img, .holder p {
+    position: relative;
+    top: 0;
+    font-size: 32px;
+    font-family: cursive;
+    text-align: center;
+    
+    
+}
     #Img
     {
+        position: absolute;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 1000px;
         height: 500px;
+        height: auto;
+        max-width: 100%;
     }
   
     #Tx {
@@ -64,14 +86,21 @@ body
         left: 250px;
         top: 200px;
         color:#bec98f;
+        max-width: 100%;
+        text-align: center;
         font-family: cursive;
     } 
 .UlIn
 {
     list-style-type: none;
     margin: 0;
+    max-width: 100%;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }    
+
 
 /* Chapter Class CSS */
 .ChIntroductionClass 
@@ -80,6 +109,7 @@ body
     display: inline-block;
     list-style-type: none;
     padding: 16px;
+    max-width: 100%;
     text-align: left;
 }
 .ChHomeClass
@@ -87,11 +117,12 @@ body
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    height: -25%;
+    height: auto;
     justify-content: space-between;
     display: inline-block;
     list-style-type: none;
     padding: 16px;
+    max-width: 100%;
     text-align: center;
 
 }
@@ -104,6 +135,7 @@ body
     display: inline-block;
     list-style-type: none;
     padding: 16px;
+    max-width: 100%;
     text-align: right;
 }
 
@@ -115,6 +147,7 @@ body
     display: inline-block;
     list-style-type: none;
     padding: 16px;
+    max-width: 100%;
     text-align: left;
 }
 .HoDeviantArtClass
@@ -126,6 +159,7 @@ body
     display: inline-block;
     list-style-type: none;
     padding: 16px;
+    max-width: 100%;
     text-align: right;
 }
 
